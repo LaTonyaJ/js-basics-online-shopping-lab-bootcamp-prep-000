@@ -31,7 +31,7 @@ function viewCart() {
       if(cart.length == 1)
        return `In your cart, you have ${items}.` 
       if(cart.length > 1)
-       return 'In your cart, you have ' + items.join(', and ')'.'
+       return 'In your cart, you have ' + items.join(', and ') + '.'
     
       }
 
